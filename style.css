@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+  font-family: sans-serif;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+form{
+  width: 450px;
+  background: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+form input,textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-transform: capitalize;
+  outline: none;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+form input[type="button"]{
+  background: #0b4494;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1{
+    margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.product{
+  width: 250px;
+  padding: 10px;
+  background: #ccc;
+  border-radius: 5px;
+}
+.product img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.product h3{
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.product p{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.product button{
+  padding: 8px 30px;
+  display: block;
+  margin: auto;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+.root{
+display: grid;
+grid-template-columns: repeat(6,1fr);
+}
